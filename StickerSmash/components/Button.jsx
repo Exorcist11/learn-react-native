@@ -24,7 +24,6 @@ export default function Button({ label, theme, onPress }) {
           <Text style={[styles.buttonLabel, { color: "#25292e" }]}>
             {label}
           </Text>
-          <Text></Text>
         </Pressable>
       </View>
     );
